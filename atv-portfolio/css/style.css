@@ -47,7 +47,7 @@ table {
 ================================================================================*/
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:calc(12px + 0.390625vw);
+    font-size:calc(10px + 1vw);
 }
 a{
     color: black;
@@ -56,7 +56,58 @@ a{
 /*===========================================
                    TOPO
 ===========================================*/
+header{
+	margin: 5vw 5vw 5vw 5vw;
+}
 header nav ul{
     display: flex;
     justify-content: right;
+}
+header nav ul li{
+	margin: 0 10px 0 10px;
+}
+header nav ul li.atual a{
+	color: #FF6464;
+}
+
+/*===========================================
+                  CONTEÚDO
+===========================================*/
+
+main.ruandograu{
+	margin: 0 15vw 0 15vw;
+}
+main h1{
+	font-size: 1.5rem;
+}
+main.ruandograu section{
+   border-bottom:  1px solid #e0e0e0;
+   padding: 0 0 4vw;
+}
+main.ruandograu section:last-child{
+	border:none;
+}
+main.ruandograu section h2{
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 5vw 0 1vw 0;
+}
+main section p{
+	margin: 0 0 2vw 0;
+
+}
+main.ruandograu section p span{
+   background: #FF6464;
+   border-radius: 20px;
+   color: white;
+   padding: 3px 5px 3px 5px;
+   font-weight:bold; 
+}
+/*===========================================
+                  FOOTER
+===========================================*/
+
+footer{
+	text-align: center;
+	margin: 5vw 0 5vw 0;
 }
